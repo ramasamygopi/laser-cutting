@@ -1,0 +1,134 @@
+/* .hero-section {
+  background-image: url('https://images.pexels.com/photos/7254419/pexels-photo-7254419.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+ 
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section .container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.hero-section .container .row .col-md-6 {
+  width: 50%;
+}
+
+.hero-section .container .row .col-md-6:first-child {
+  order: 2;
+}
+
+.hero-section .container .row .col-md-6:last-child {
+  order: 1; 
+}
+
+.hero-section .container .row .col-md-6:last-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Add media queries to make it responsive */
+/* @media (max-width: 768px) {
+  .hero-section .container .row {
+    flex-direction: column;
+  }
+  .hero-section .container .row .col-md-6 {
+    width: 100%;
+  }
+  .hero-section .container .row .col-md-6:last-child img {
+    height: 300px;
+  }
+}  */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-container {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.carousel-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.headline {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subheadline {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color:white;
+  background-color: rgba(0, 0, 255, 0.897);
+}
+.btn:hover{
+  background-color: blue!important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 0.9;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .carousel-overlay {
+    width: 80%!important;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-overlay {
+    width: 80%!important;
+  }
+}

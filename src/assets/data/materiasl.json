@@ -1,0 +1,48 @@
+{
+    "materials": [
+      {
+        "icon": "fas fa-wrench",
+        "title": "Metals",
+        "items": [
+          {
+            "name": "Stainless steel",
+            "icon": "fa-solid fa-circle-check"
+          },
+          {
+            "name": "Mild steel",
+            "icon": "fa-solid fa-circle-check"
+          },
+          {
+            "name": "Aluminum",
+            "icon": "fa-solid fa-circle-check"
+          },
+          {
+            "name": "Copper",
+            "icon": "fa-solid fa-circle-check"
+          }
+        ]
+      },
+      {
+        "icon": "fas fa-layer-group",
+        "title": "Non-metals",
+        "items": [
+          {
+            "name": "Acrylic",
+            "icon": "fa-solid fa-circle-check"
+          },
+          {
+            "name": "Wood",
+            "icon": "fa-solid fa-circle-check"
+          },
+          {
+            "name": "Plastic",
+            "icon": "fa-solid fa-circle-check"
+          },
+          {
+            "name": "Glass",
+            "icon": "fa-solid fa-circle-check"
+          }
+        ]
+      }
+    ]
+  }

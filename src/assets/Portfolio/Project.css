@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.projects-main-container{
+  background-color: whitesmoke;
+}
+.projects {
+  padding: 20px;
+  text-align: center;
+  background-color: whitesmoke;
+margin: 50px 50px;
+ 
+}
+.projects  h2{
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+.project h3{
+  font-weight: 600;
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  transition: transform 0.2s;
+ 
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.project p {
+  font-size: 1em;
+  color: #555;
+}
+
+.project:hover {
+  transform: scale(1.02 );
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .projects{
+    margin: 0px 0px !important;
+  }
+}
+@media (min-width:769px) and (max-width:999px) {
+  .projects{
+    margin: 10px 10px !important;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .projects-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .projects{
+    margin: 0px 0px !important;
+  }
+}

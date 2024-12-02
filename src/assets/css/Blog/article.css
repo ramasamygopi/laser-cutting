@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.article-container{
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #999;
+}
+.article-container div{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+   
+
+}
+.article-container div img{
+    width: 100px;
+}
+.art-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+@media (max-width:576px)
+{
+    .article-container{
+        margin: 20px 10px!important;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+}
+@media (max-width:1000px)
+{
+    .article-container{
+        margin: 50px 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

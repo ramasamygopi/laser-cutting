@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.about-us-page {
+    padding: 20px;
+  }
+  .about-us-page h2{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+  .cardds-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .carddd {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.664);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .carddd:hover {
+    transform: scale(1.03);
+  }
+  
+  .carddd i {
+    font-size: 50px;
+    color: red;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carddd h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  @media (max-width:576px){
+  
+    .carddd{
+        width: 100%!important;
+    }
+    .about-us-page h2{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .carddd p{
+        font-size: 15px;
+    }
+}

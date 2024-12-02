@@ -1,0 +1,34 @@
+{
+    "services": [
+      {
+        "image": "https://media.gettyimages.com/id/1233759010/photo/a-laser-cutter-of-argentine-sme-libson-group-is-seen-at-their-factory-in-la-tablada-buenos.jpg?s=612x612&w=0&k=20&c=MqCDy9-SF6JLxj0gMPQ3_QFLdzNnJP-cmaZLl6uFkoY=",
+        "title": "Precision Laser Cutting",
+        "description": "Accurate cuts with precision and speed all customers are statisfied with our Service",
+        "buttonText": "Explore Our Service"
+      },
+      {
+        "image": "https://img.freepik.com/free-photo/laser-cut-details_1098-13391.jpg?ga=GA1.1.1564615343.1697263338&semt=ais_hybrid",
+        "title": "Cutting-Edge Technology",
+        "description": "Stay ahead with our state-of-the-art laser cutting machines and expertise",
+        "buttonText": "Explore Our Service"
+      },
+      {
+        "image": "https://img.freepik.com/free-photo/photographer-plater_1160-733.jpg?ga=GA1.1.1564615343.1697263338&semt=ais_hybrid",
+        "title": "Fast Project Turnaround",
+        "description": "Quick turnaround times to meet your project deadlines",
+        "buttonText": "Explore Our Service"
+      },
+      {
+        "image": "https://img.freepik.com/free-photo/full-shot- people-coins_23-2151027569.jpg?ga=GA1.1.1564615343.1697263338&semt=ais_hybrid",
+        "title": "Competitive Pricing",
+        "description": "Affordable laser cutting solutions without compromising on quality",
+        "buttonText": "Explore Our Service"
+      },
+      {
+        "image": "https://media.gettyimages.com/id/1216249841/photo/a-laser-cutter-cuts-a-piece-of-plexiglass-to-make-a-protective-counter-top-shield-at-the.jpg?s=612x612&w=0&k=20&c=40vLvUi-YoGixDQYI6_hs9Tvz37PlpZZvtpyb8QS4QM=",
+        "title": "Custom Designs & Prototypes",
+        "description": "Bring your designs to life with our custom laser cutting services",
+        "buttonText": "Explore Our Service"
+      }
+    ]
+  }

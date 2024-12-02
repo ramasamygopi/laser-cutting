@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.blog-content-container{
+    margin: 50px 100px;
+    text-align: justify;
+}
+.blog-content-container div{
+    margin-bottom: 50px;
+}
+.first-one h5{
+    font-weight: bold;
+    text-decoration: underline;
+  
+}
+.first-one .imgcontainer{
+   
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   width:100%;
+    
+}
+.imgcontainer img{
+    width:60%;
+}
+#red{
+    color: red;
+}
+#bold{
+    font-weight: 600;
+}
+@media (max-width:576px) {
+    .blog-content-container{
+        margin: 20px 15px!important;       
+    }
+
+}
+@media(max-width:992px)
+{
+    .blog-content-container{
+        margin: 50px 50px;
+    }
+     
+}

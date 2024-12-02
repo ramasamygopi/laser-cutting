@@ -1,0 +1,29 @@
+{
+    "service": {
+      "title": "Comprehensive Laser Cutting Solutions",
+      "description": "IMAX Laser provides top-tier laser cutting services for both small and large-scale projects. Our cutting-edge technology allows for precision cuts that meet the most exacting standards"
+    },
+    "coreServices": [
+      {
+        "image": "https://media.istockphoto.com/id/1164593906/photo/steel-worker-on-cnc-plasma-cutter-machine.jpg?s=612x612&w=0&k=20&c=1U8vFACKf3dRBB9PP4_dCfcZJrW2T2eMJVLWrqJf0IQ=",
+        "services": [
+          {
+            "title": "Custom Laser Cutting",
+            "description": "From intricate designs to large-scale fabrication, we offer custom laser cutting to suit your specifications."
+          },
+          {
+            "title": "Metal Fabrication",
+            "description": "We specialize in cutting various metals such as stainless steel, mild steel, aluminum, and more, for all industrial and commercial needs."
+          },
+          {
+            "title": "Prototyping and Small Batch Production",
+            "description": "Develop your prototypes with our precision laser cutting, ensuring accuracy and quality in every piece."
+          },
+          {
+            "title": "Architectural and Decorative Cutting:",
+            "description": "Offering customized laser cutting services for architectural designs, interior decor, and artistic creations."
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hero-section3{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px!important;
+  }
+  
+  .hero-section3 .headline-about {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section3 .subheadline-about {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  .headline-about{
+    margin-top: 80px!important;
+  }
+  .home-service{
+     margin: 10px 100px;        
+}

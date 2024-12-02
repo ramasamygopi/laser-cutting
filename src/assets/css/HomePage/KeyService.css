@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.key-services{
+    margin-top: 100px!important;
+    background-color: #f7f7f7;
+}
+.description{
+    margin-bottom: 20px!important;
+    font-weight: 500;
+    color: #888;
+}
+.row .col-md-4 {
+    margin-top: 40px!important;
+ 
+}
+
+.learn-more{
+    background-color:black;
+    opacity: 0.8!important;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 8px 20px;
+}
+
+.learn-more:hover{
+  background-color: black;
+  opacity: 1!important;
+
+}
+.card {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.5s, transform 0.5s;
+    padding: 10px; 
+  }
+  
+  .card.show {
+    opacity: 1;
+    transform: translateY(0);
+    animation: slide-in 0.5s;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  @media (max-width:576px)
+  {
+   .key-services{
+margin-top: 30px!important;
+   } 
+  }

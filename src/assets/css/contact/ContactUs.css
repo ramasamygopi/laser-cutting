@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.contact-us-page {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 60px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .get-in-touch {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .get-in-touch h2 {
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .get-in-touch ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .get-in-touch li {
+    margin-bottom: 20px;
+  }
+  
+  .get-in-touch i {
+    margin-right: 10px;
+    
+  }
+  
+  .contact-form {
+    padding: 20px;
+    margin-left: 100px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  .error {
+    color: #f44336;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  @media (max-width: 768px) {
+    .get-in-touch {
+      flex-basis: 100%!important;
+    }
+    .contact-form {
+      flex-basis: 100%;
+      margin-top: 10px!important;
+      margin-left: 0px!important;
+      padding-top: 50px;
+    }
+    .contact-form h2{
+        font-size: 24px;
+        font-weight: 600;
+    }
+  }
+
+   @media (min-width: 768px) and (max-width: 999px)
+  { 
+    .get-in-touch {
+    flex-basis: 100%;
+    width:100%!important;
+    margin:0px;
+  }
+  
+  .contact-form {
+    flex-basis: 100%;
+    margin-top: 10px!important;
+    margin-left: 0px!important;
+    padding-top: 50px;
+  }
+  } 
+  

@@ -1,0 +1,22 @@
+[
+    {
+      "icon": "fas fa-car",
+      "title": "Automotive",
+      "description": "We specialize in providing precision parts for the automotive industry, ensuring that every component meets stringent quality standards. Our laser cutting technology allows for intricate designs and exact specifications"
+    },
+    {
+      "icon": "fas fa-building",
+      "title": "Construction",
+      "description": "In the construction sector, we offer laser-cut materials that are essential for various building projects. Our services include the fabrication of structural components, decorative elements, and custom designs tailored to meet the requirements"
+    },
+    {
+      "icon": "fas fa-couch",
+      "title": "Interior Design",
+      "description": "Our expertise in interior design allows us to create customized designs for decorative elements that elevate any space. From intricate wall art to bespoke furniture pieces, we use laser cutting to bring artistic visions to life"
+    },
+    {
+      "icon": "fas fa-warehouse",
+      "title": "Manufacturing",
+      "description": "We support the manufacturing industry with high-volume production services for industrial parts. Our state-of-the-art laser cutting technology enables us to produce components with high precision & efficiency"
+    }
+  ]

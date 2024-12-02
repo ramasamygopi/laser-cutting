@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.faq-head{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.faq-head h5{
+  font-weight: 600;
+}
+
+.question-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  
+  .question {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   background-color: black;
+   color: white;
+    width:50%;
+   padding-top: 15px;
+   margin: 10px 0px;
+   padding-left: 10px;
+   justify-content:space-around;
+   
+  }
+  .numbers{
+    color: red;
+  }
+  
+  .question span:first-child {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .arrow-container {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .answer {
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #333;
+    width: 50%; 
+
+  }
+
+  .arrow-container {
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.3s ease-in-out; 
+
+  }
+  
+  .arrow-container.rotate {
+    transform: rotate(360deg); 
+  }
+  @media (max-width:768px)
+  {
+    .answer{
+        width:100%;
+        padding: 5px;
+    }
+    .question{
+        width: 100%;
+        padding: 5px;
+      }
+    .question-container {
+        margin: 10px 10px;
+    }
+    
+  }

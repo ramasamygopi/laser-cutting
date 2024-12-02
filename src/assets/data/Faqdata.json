@@ -1,0 +1,28 @@
+
+ [
+    {
+      "id": 1,
+      "question": "What materials can you cut with laser technology?",
+      "answer": "We cut a wide range of materials including metals like stainless steel, mild steel, aluminum, and non-metals like acrylic and wood."
+    },
+    {
+      "id": 2,
+      "question": "What thicknesses can you handle regulary?",
+      "answer": "Our laser cutting machines can cut metals up to X mm in thicknessand non-metals up to Y mm"
+    },
+    {
+      "id": 3,
+      "question": "Do you provide design assistance or another?",
+      "answer": "Yes, we can assist with CAD design and ensure your project meetsprecise specifications."
+    },
+    {
+        "id": 4,
+        "question": "How long does it take to complete a project?",
+        "answer": "We pride ourselves on fast turnaround times, depending on the complexity and size of the project."
+      },
+      {
+        "id": 5,
+        "question": "Can you handle bulk orders and products?",
+        "answer": "Yes, we are equipped to handle both small and large-scale production runs."
+      }
+  ]
